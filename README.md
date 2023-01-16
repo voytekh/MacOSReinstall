@@ -8,5 +8,16 @@ Script to restore app and settings after MacOS reinstall
   - Check Point Endpoint Security VPN (need some works!!!)
   - O365 [Deploying Microsoft 365 Apps for Mac with Microsoft Intune - A Deep Dive](https://techcommunity.microsoft.com/t5/intune-customer-success/deploying-microsoft-365-apps-for-mac-with-microsoft-intune-a/ba-p/2243040)
   - Edge [Add Microsoft Edge to macOS devices using Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/apps/apps-edge-macos)
+  - Simple Sign Desktop [Intune Customer Experience Engineering Shell Script Repo](https://github.com/microsoft/shell-intune-samples) [Deploying macOS apps with the Microsoft Intune scripting agent](https://techcommunity.microsoft.com/t5/intune-customer-success/deploying-macos-apps-with-the-microsoft-intune-scripting-agent/ba-p/2298072)
 #### Policy
   - VPN policy [Add VPN settings on macOS devices in Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/configuration/vpn-settings-macos)
+  - 
+
+
+
+
+Nesssesery configuration:
+
+Menu Bar -> Open Key Icon -> Login to get kerberos ticket
+System Setings -> Network account server -> Edit -> Add -> Server -> Fill Down: Server adress, user name with join compute to domain priviledges, password
+Open -> Ticket Viewer -> Add Identity -> Enter Company credential -> Set as Default 
