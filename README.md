@@ -1,4 +1,4 @@
-# MacOSReinstall
+# MacOS Reinstall
 Script to restore app and settings after MacOS reinstall
 
 ## Installation Plan
