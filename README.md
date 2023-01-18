@@ -23,4 +23,13 @@ Nessesery configuration:
 
 Menu Bar -> Open Key Icon -> Login to get kerberos ticket
 System Setings -> Network account server -> Edit -> Add -> Server -> Fill Down: Server adress, user name with join compute to domain priviledges, password
-Open -> Ticket Viewer -> Add Identity -> Enter Company credential -> Set as Default 
+Open -> Ticket Viewer -> Add Identity -> Enter Company credential -> Set as Default
+
+Config Internet Account
+
+```shell
+xcode-select --install
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
