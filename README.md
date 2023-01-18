@@ -29,7 +29,29 @@ Config Internet Account
 
 ```shell
 xcode-select --install
-
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+```shell
+CurrentUser=$(echo "show State:/Users/ConsoleUser" | scutil | awk '/Name :/ && ! /loginwindow/ {print $3}')
+```
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/$CurrentUser/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$CurrentUser/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+```shell
+brew install --cask setapp
+```
+### All manual installation stuff :(
+#### SetApp application:
+- SnippetsLab
+- Get Backup Pro
+- CleanMyMac X
+- Gemini
+- iStats Menus
+- Lungo
+- Meta
+- Mission Control Plus
+- Nitro PDF Pro
+
 
