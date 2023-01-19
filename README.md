@@ -20,8 +20,8 @@ Script to restore app and settings after MacOS reinstall
 
 
 
-###Nessesery configuration:
-####Kerberos
+### Nessesery configuration:
+#### Kerberos
 
 Menu Bar -> Open Key Icon -> Login to get kerberos ticket
 System Setings -> Network account server -> Edit -> Add -> Server -> Fill Down: Server adress, user name with join compute to domain priviledges, password
