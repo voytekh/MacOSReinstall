@@ -11,6 +11,7 @@ Script to restore app and settings after MacOS reinstall
   - Simple Sign Desktop:
     - [Intune Customer Experience Engineering Shell Script Repo](https://github.com/microsoft/shell-intune-samples)
     - [Deploying macOS apps with the Microsoft Intune scripting agent](https://techcommunity.microsoft.com/t5/intune-customer-success/deploying-macos-apps-with-the-microsoft-intune-scripting-agent/ba-p/2298072)
+    - TeamViewer
 #### Policy
   - VPN policy [Add VPN settings on macOS devices in Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/configuration/vpn-settings-macos)
   - Apple Kerberos SSO app extension [Kerberos Single Sign-On (SSO) app extension for macOS](https://hmaslowski.com/home/f/kerberos-single-sign-on-sso-app-extension-for-macos)
@@ -19,7 +20,8 @@ Script to restore app and settings after MacOS reinstall
 
 
 
-Nessesery configuration:
+###Nessesery configuration:
+####Kerberos
 
 Menu Bar -> Open Key Icon -> Login to get kerberos ticket
 System Setings -> Network account server -> Edit -> Add -> Server -> Fill Down: Server adress, user name with join compute to domain priviledges, password
@@ -41,6 +43,23 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 ```shell
 brew install --cask setapp
+brew install --cask iterm2
+brew install --cask 1password
+brew install --cask adobe-acrobat-reader
+brew install --cask balenaetcher
+brew install --cask gpg-suite-no-mail
+brew install --cask grammarly-desktop
+brew install --cask handbrake
+brew install --cask moom
+brew install --cask powershell
+brew install --cask visual-studio-code
+brew install --cask obsidian
+brew install --cask parallels
+brew install --cask rectangle
+brew install --cask the-unarchiver
+brew install --cask vlc
+brew install --cask whatsapp
+brew install --cask zoom
 ```
 ### All manual installation stuff :(
 #### SetApp application:
@@ -53,5 +72,19 @@ brew install --cask setapp
 - Meta
 - Mission Control Plus
 - Nitro PDF Pro
+#### Application from websites:
+- [DisplayLinkManager](https://www.synaptics.com/node/5026?filetype=exe)
+- [Synology Drive Client](https://global.download.synology.com/download/Utility/SynologyDriveClient/3.2.1-13271/Mac/Installer/synology-drive-client-13271.dmg)
+- [TinkerTool](https://www.bresink.eu/download3.php?PHPSESSID=d348386a3c952454dfad88d789d14a38)
+- [Docker](https://desktop.docker.com/mac/main/arm64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module)
+#### Aplication from AppStore
+- Notability
+- Blackmagic Disk Speed Test
+- GoodNotes 5
+- HP Smart for Desktop
+- Pluralsight: Learn Tech Skills
+- VCE Simulator
+#### Other
+- [Mac Evaluation Utility](https://appleseed.apple.com/sp/downloads/projects/1001315/downloads/1016716)
 
 
