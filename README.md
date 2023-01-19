@@ -53,8 +53,15 @@ brew install --cask handbrake
 brew install --cask moom
 brew install --cask powershell
 brew install --cask visual-studio-code
+```
+```shell
+cat << EOF >> ~/.zprofile
+# Add Visual Studio Code (code)
+export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+EOF
+```
+```shell
 brew install --cask obsidian
-brew install --cask parallels
 brew install --cask rectangle
 brew install --cask the-unarchiver
 brew install --cask vlc
@@ -77,6 +84,7 @@ brew install --cask zoom
 - [Synology Drive Client](https://global.download.synology.com/download/Utility/SynologyDriveClient/3.2.1-13271/Mac/Installer/synology-drive-client-13271.dmg)
 - [TinkerTool](https://www.bresink.eu/download3.php?PHPSESSID=d348386a3c952454dfad88d789d14a38)
 - [Docker](https://desktop.docker.com/mac/main/arm64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module)
+- [Parallels Destop](https://www.parallels.com/directdownload/pd18/?experience=enter_key)
 #### Aplication from AppStore
 - Notability
 - Blackmagic Disk Speed Test
