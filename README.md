@@ -92,6 +92,8 @@ brew install --cask zoom
 - HP Smart for Desktop
 - Pluralsight: Learn Tech Skills
 - VCE Simulator
+- 1Password for Safari (Extension)
+- Grammarly for Safari (Extension)
 #### Other
 - [Mac Evaluation Utility](https://appleseed.apple.com/sp/downloads/projects/1001315/downloads/1016716)
 
