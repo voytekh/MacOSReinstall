@@ -98,3 +98,13 @@ brew install --cask zoom
 - [Mac Evaluation Utility](https://appleseed.apple.com/sp/downloads/projects/1001315/downloads/1016716)
 
 
+
+Settings:
+Finder:
+- Show all filename extensions
+- Keep folders on top:
+  - In windows when sorting by name
+  - On Desktop
+- When performing a search:
+  - Search the Current Folder
+  - 
