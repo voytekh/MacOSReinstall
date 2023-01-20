@@ -29,6 +29,7 @@ Open -> Ticket Viewer -> Add Identity -> Enter Company credential -> Set as Defa
 
 Config Internet Account
 
+
 ```shell
 xcode-select --install
 ```
@@ -67,6 +68,7 @@ brew install --cask the-unarchiver
 brew install --cask vlc
 brew install --cask whatsapp
 brew install --cask zoom
+brew install midnight-commander
 ```
 ### All manual installation stuff :(
 #### SetApp application:
@@ -85,6 +87,8 @@ brew install --cask zoom
 - [TinkerTool](https://www.bresink.eu/download3.php?PHPSESSID=d348386a3c952454dfad88d789d14a38)
 - [Docker](https://desktop.docker.com/mac/main/arm64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module)
 - [Parallels Destop](https://www.parallels.com/directdownload/pd18/?experience=enter_key)
+- [Azure Data Studio](https://go.microsoft.com/fwlink/?linkid=2215346)
+- [Azure Storage Explorer](https://go.microsoft.com/fwlink/?linkid=2216184)
 #### Aplication from AppStore
 - Notability
 - Blackmagic Disk Speed Test
@@ -100,6 +104,8 @@ brew install --cask zoom
 
 
 Settings:
+Acrobat Reader:
+- Turn On "Open using Rosetta"
 Finder:
 - Show all filename extensions
 - Keep folders on top:
@@ -107,4 +113,4 @@ Finder:
   - On Desktop
 - When performing a search:
   - Search the Current Folder
-  - 
+  - On Desktop
