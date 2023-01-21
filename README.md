@@ -94,6 +94,10 @@ Next, install Homebrew with the available application and tools:
 
 ### Settings ###
 
+# Save To Disk (not to iCloud) By Default
+defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
+
+
 ```shell
 xcode-select --install
 ```
