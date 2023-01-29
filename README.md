@@ -122,6 +122,8 @@ brew install --cask handbrake
 brew install --cask moom
 brew install --cask powershell
 brew install --cask visual-studio-code
+brew install --cask cheatsheet
+brew install --cask latest
 ```
 ```shell
 cat << EOF >> ~/.zprofile
