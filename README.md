@@ -124,6 +124,8 @@ brew install --cask powershell
 brew install --cask visual-studio-code
 brew install --cask cheatsheet
 brew install --cask latest
+brew install lsd
+brew install glow
 ```
 ```shell
 cat << EOF >> ~/.zprofile
