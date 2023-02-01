@@ -153,4 +153,6 @@ defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 # defaults write NSGlobalDomain KeyRepeat -int 1
 # defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
+# ToDo
 # Customise Finder SideBar
+# Prevent automatic sleeping on power adapter when the display is off

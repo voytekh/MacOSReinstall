@@ -156,3 +156,5 @@ Finder:
 - When performing a search:
   - Search the Current Folder
   - On Desktop
+
+  
