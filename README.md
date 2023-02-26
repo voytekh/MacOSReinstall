@@ -28,7 +28,7 @@ Plan and script to restore app and settings after MacOS reinstall.
       + Provide User Password
     + Open -> Ticket Viewer -> Add Identity -> Enter Company credential -> Set as Default
   + **Simply Sign Desktop:**
-    + After Simply Sign Desktop application, double tap on the app icon -> Get Info -> Set "Open using Rosetta"
+    + After Simply Sign Desktop application install, double tap on the Adobe Acrobat App -> Get Info -> Set "Open using Rosetta"
 
 ---
 
@@ -37,7 +37,7 @@ Plan and script to restore app and settings after MacOS reinstall.
 - Add Kerberos configuration (command line/Intune script)
 - Config Internet Account from the command line
 - Check Point Endpoint Security VPN needs deep dive for the correct configuration
-- Set "Open using Rosetta" from the command line for Simply Sign Desktop
+- Set "Open using Rosetta" from the command line for Adobe Acrobat Reader (without this, SimplySign does not work!)
 
 ---
 
@@ -70,6 +70,7 @@ Next, install Homebrew with the available application and tools:
 - Meta
 - Mission Control Plus
 - Nitro PDF Pro
+- Session
 
 ***Application to install from producer websites:***
 - [DisplayLinkManager](https://www.synaptics.com/node/5026?filetype=exe)
@@ -93,10 +94,7 @@ Next, install Homebrew with the available application and tools:
 - Grammarly for Safari (Extension)
 
 ### Settings ###
-
-# Save To Disk (not to iCloud) By Default
-defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
-
+- run macsettings.sh
 
 ```shell
 xcode-select --install
@@ -126,6 +124,7 @@ brew install --cask cheatsheet
 brew install --cask latest
 brew install lsd
 brew install glow
+brew install nmap`
 ```
 ```shell
 cat << EOF >> ~/.zprofile
@@ -156,5 +155,7 @@ Finder:
 - When performing a search:
   - Search the Current Folder
   - On Desktop
+Set Default Internet browser
+
 
   
