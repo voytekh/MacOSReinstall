@@ -82,6 +82,7 @@ Next, install Homebrew with the available application and tools:
 - [Azure Storage Explorer](https://go.microsoft.com/fwlink/?linkid=2216184)
 - [Check Point Endpoint Security VPN](https://supportcenter.checkpoint.com/supportcenter/portal/user/anon/page/default.psml/media-type/html?action=portlets.DCFileAction&eventSubmit_doGetdcdetails=&fileid=120374)
 - [Mac Evaluation Utility](https://appleseed.apple.com/sp/downloads/projects/1001315/downloads/1016716)
+- [YubiKey Manager](https://developers.yubico.com/yubikey-manager-qt/Releases/yubikey-manager-qt-latest-mac.pkg)
 
 ***Aplication to install from AppStore:***
 - Notability
@@ -92,6 +93,7 @@ Next, install Homebrew with the available application and tools:
 - VCE Simulator
 - 1Password for Safari (Extension)
 - Grammarly for Safari (Extension)
+- Notability
 
 ### Settings ###
 - run macsettings.sh
