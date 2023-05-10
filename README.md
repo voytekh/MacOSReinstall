@@ -114,6 +114,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install --cask setapp
 brew install --cask iterm2
 brew install --cask 1password
+brew install --cask 1password/tap/1password-cli
 brew install --cask adobe-acrobat-reader
 brew install --cask balenaetcher
 brew install --cask gpg-suite-no-mail
@@ -126,7 +127,9 @@ brew install --cask cheatsheet
 brew install --cask latest
 brew install lsd
 brew install glow
-brew install nmap`
+brew install nmap
+brew install pwgen
+brew install dotnet
 ```
 ```shell
 cat << EOF >> ~/.zprofile
