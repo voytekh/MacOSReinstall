@@ -28,7 +28,7 @@ Plan and script to restore app and settings after MacOS reinstall.
       + Provide User Password
     + Open -> Ticket Viewer -> Add Identity -> Enter Company credential -> Set as Default
   + **Simply Sign Desktop:**
-    + After Simply Sign Desktop application install, double tap on the Adobe Acrobat App -> Get Info -> Set "Open using Rosetta"
+    + After the Simply Sign Desktop application is installed, double tap on the Adobe Acrobat App -> Get Info -> Set "Open using Rosetta"
 
 ---
 
@@ -36,7 +36,7 @@ Plan and script to restore app and settings after MacOS reinstall.
 - Write a script to renew Kerberos Token automatically
 - Add Kerberos configuration (command line/Intune script)
 - Config Internet Account from the command line
-- Check Point Endpoint Security VPN needs deep dive for the correct configuration
+- Check Point Endpoint Security VPN needs a deep dive for the correct configuration
 - Set "Open using Rosetta" from the command line for Adobe Acrobat Reader (without this, SimplySign does not work!)
 
 ---
@@ -45,7 +45,7 @@ Plan and script to restore app and settings after MacOS reinstall.
 
 Install and configure Xcode console tools.
 
-Next, install Homebrew with the available application and tools:
+Next, install Homebrew with the available applications and tools:
 - setapp
 - iterm2
 - 1password
@@ -166,8 +166,7 @@ Finder:
   - On Desktop
 - When performing a search:
   - Search the Current Folder
-  - On Desktop
-Set Default Internet browser
+On the Desktop Set the Default Internet browser
 
 
   
