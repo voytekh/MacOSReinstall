@@ -138,6 +138,12 @@ export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/
 EOF
 ```
 ```shell
+cat << EOF >> ~/.zprofile
+# Add Docker Desktop for Mac (docker)
+export PATH="$PATH:/Applications/Docker.app/Contents/Resources/bin/"
+EOF
+```
+```shell
 brew install --cask obsidian
 brew install --cask rectangle
 brew install --cask the-unarchiver
@@ -146,6 +152,7 @@ brew install --cask whatsapp
 brew install --cask zoom
 brew install --cask latest
 brew install midnight-commander
+brew install fig
 ```
 
 
