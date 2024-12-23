@@ -11,14 +11,16 @@ Plan and script to restore app and settings after MacOS reinstall.
   4. Simple Sign Desktop:
     - [Intune Customer Experience Engineering Shell Script Repo](https://github.com/microsoft/shell-intune-samples)
     - [Deploying macOS apps with the Microsoft Intune scripting agent](https://techcommunity.microsoft.com/t5/intune-customer-success/deploying-macos-apps-with-the-microsoft-intune-scripting-agent/ba-p/2298072)
-  5. TeamViewer
-  6. Rossetta2
+  6. (degraded) Rossetta2
 
 + Policy settings to push from Intune:
-  - VPN policy [Add VPN settings on macOS devices in Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/configuration/vpn-settings-macos)
-  - Apple Kerberos SSO app extension [Kerberos Single Sign-On (SSO) app extension for macOS](https://hmaslowski.com/home/f/kerberos-single-sign-on-sso-app-extension-for-macos)
-  - Microsoft Enterprise SSO plug-in [Use the Microsoft Enterprise SSO plug-in on iOS/iPadOS and macOS devices in Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/configuration/use-enterprise-sso-plug-in-ios-ipados-macos)
-
+  1. VPN policy [Add VPN settings on macOS devices in Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/configuration/vpn-settings-macos)
+  2. Apple Kerberos SSO app extension [Kerberos Single Sign-On (SSO) app extension for macOS](https://hmaslowski.com/home/f/kerberos-single-sign-on-sso-app-extension-for-macos)
+  3. (degraded) Microsoft Enterprise SSO plug-in [Use the Microsoft Enterprise SSO plug-in on iOS/iPadOS and macOS devices in Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/configuration/use-enterprise-sso-plug-in-ios-ipados-macos)
+  4. Microsoft Enterprise Platform SSO plug-in:
+    - [Configure Platform SSO for macOS devices in Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/configuration/platform-sso-macos#step-2---create-the-platform-sso-policy-in-intune?wt.mc_id=MVP_377186)
+    - [Configure MacOS Platform SSO](https://intunestuff.com/2024/10/09/manage-macos-with-intune-including-apple-business-manager-including-platform-sso-the-complete-guide/)
+  5. FileVault Disk encription [Enable FileVault during the Setup Assistant](https://intunestuff.com/2024/10/09/manage-macos-with-intune-including-apple-business-manager-including-platform-sso-the-complete-guide/)
 + Manual Configuration:
   + **Kerberos:**
     + Open -> Menu Bar -> Open "Key" Icon -> Login to get Kerberos ticket
