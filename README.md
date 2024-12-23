@@ -155,7 +155,6 @@ brew install --cask whatsapp
 brew install --cask zoom
 brew install --cask latest
 brew install midnight-commander
-brew install fig
 ```
 
 
