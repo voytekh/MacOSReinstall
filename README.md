@@ -95,7 +95,6 @@ Next, install Homebrew with the available applications and tools:
 - VCE Simulator
 - 1Password for Safari (Extension)
 - Grammarly for Safari (Extension)
-- Notability
 
 ### Settings ###
 - run macsettings.sh
