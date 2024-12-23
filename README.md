@@ -132,6 +132,7 @@ brew install glow
 brew install nmap
 brew install pwgen
 brew install dotnet
+brew install azure-cli
 ```
 ```shell
 cat << EOF >> ~/.zprofile
